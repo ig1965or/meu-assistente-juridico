@@ -1,0 +1,55 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+
+# Distribuição / packaging
+build/
+dist/
+*.egg-info/
+
+# Configs e chaves
+.env
+.env.*
+credentials.json
+secrets.json
+keys/
+*.pem
+*.key
+
+# Databases / storage
+*.sqlite3
+db.sqlite3
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Notebooks export / checkpoints
+*.nbconvert.ipynb
+
+# Documentos gerados
+*.docx
+*.pdf
+
+# Diretórios de vetores/DB locais
+db/
+chromadb/
+milvus/
+weaviate/
